@@ -1,0 +1,209 @@
+body{
+    margin: 4px;
+}
+#espacio{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+}
+.account{
+    width: 30% !important;
+    right: 0;
+    float: right;
+    position: fixed !important;
+    font-size: 15px;
+    margin: 21px 0 0 0;
+    border: 5px solid rgb(36, 136, 230);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.eventlog{
+    width: 15%;
+    background-color: rgb(0, 0, 0) !important;
+    font-size: 38px;
+    color: rgb(255, 255, 255) !important;
+}
+.record{
+    width: 15%;
+    background-color: rgb(0, 0, 0) !important;
+    font-size: 38px;
+    color: rgb(255, 255, 255) !important;
+}
+.p-4{
+    margin-top: 85px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 12px;
+   
+}
+
+.SearchById{
+    position: relative;
+    left: 60%;
+    width: 27%;
+}
+
+.SearchByName{
+    position: relative;
+    left: 10%;
+    width: 30%;
+    margin-top: -30px;
+}
+td, th{
+    font-size: 13px;
+}
+
+.alert {
+padding: 20px;
+background-color: #f44336;
+color: white;
+}
+
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.closebtn:hover {
+color: black;
+}
+
+
+.button-pagi {
+background-color: rgb(0, 0, 0);
+color: white;
+border: none;
+bottom: 23px;
+border-radius: 4px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+display: none;
+position: fixed;
+border: 3px solid #f1f1f1;
+z-index: 9;
+top: 250px;
+left: 50%;
+margin-top: -130px;
+margin-left: -175px;
+
+}
+
+/* Add styles to the form container */
+.form-container {
+max-width: 375px;
+padding: 10px;
+background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}
+
+.boton-permiso{
+float: right;
+margin-top: -25px;
+background-color: #04AA6D;
+border-radius: 12px;
+color: white;
+}
+
+.switch {
+position: relative;
+display: -webkit-box;
+width: 60px;
+height: 34px;
+}
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+.switch input { 
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
