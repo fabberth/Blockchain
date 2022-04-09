@@ -1,0 +1,11 @@
+[
+    {
+        "userName" : "partner",
+        "accounts": [
+                    {
+                        "address" : "0x2473832F04b0B6f87c4dBd54E47B1D445a9655fd",
+                        "key" : "09e86a546446a5abadbcca4997e1daba4dceaff9a5bb0ecc363a3dab0d5a9551"
+                    }
+                    ]
+    }
+]
