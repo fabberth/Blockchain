@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<style>
+.window-notice {
+    background: rgb(9, 11, 14);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+.window-notice .content {
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    /* box-shadow: 0 1px 3px rgba(33, 41, 52, .75);*/
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 308px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+    top: -29%;
+}
+</style>
+<body>
+
+    <div class="window-notice" id="window-notice">
+        <div class="content">
+            <input type="password" placeholder="Password" id="password">
+            <br>
+            <div style="text-align: center; padding: 50xp;" > <button type="button" onclick=" identificar() ">Confirmar</button></div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}

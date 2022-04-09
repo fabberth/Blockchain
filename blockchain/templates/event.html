@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1 style="text-align: center;">EVENTLOG - BLOCKCHAIN</h1>
+<span id="UserName" style="display: none;">%%USER%%</span>
+
+<section class="col-12">
+	<form class="SearchById col-6">	    
+		<input id="searchId" type="search" placeholder="Search...">		    	
+		<button type="button" class="button-pagi" onclick="SearchId()">SearchById</button>
+	</form>
+
+    <form class="SearchByName col-6">	    
+		<input id="searchUserName" type="search" placeholder="Search...">	    	
+		<button type="button" class="button-pagi" onclick="SearchName()">SearchByName</button>
+	</form>
+</section>
+
+<br>
+
+<div class="alert" style="display: none;" id="alert">
+	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+	<strong id="msgError"> Ups! </strong>
+</div>
+
+<div class="row">
+	<div class="col-12">
+	  <div class="table-responsive">
+		<table id="tabla" class="table">
+		  <thead>
+			<tr>
+				<th>#</th>
+				<th>Owen</th>
+				<th>Id</th>
+				<th>userName</th>
+				<th>action</th>
+				<th>date</th>
+				<th>ip</th>
+				<th>target</th>
+				<th>targetName</th>
+				<th>TargetId</th>
+				<th>module</th>
+				<th>description</th>
+				<th>parameters</th>
+			</tr>
+		  </thead>
+		  <tbody id="tbodyTable"  style="font-family: Helvetica, Arial, sans-serif" >
+		   
+		  </tbody>
+		</table>
+	  </div>
+	</div>
+  </div>
+</div>
+
+{% endblock %}
