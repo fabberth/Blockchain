@@ -1,0 +1,135 @@
+{
+    "eventLog": {
+        "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "events": {
+            "event": [
+                {
+                    "id": "7feb6a03-2f43-4488-8449-adfd009c5770",
+                    "userName": "partner",
+                    "action": "Update",
+                    "date": "13/12/2021 2:29:13 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Core.Contents.File,  Adapting.Core",
+                    "targetName": "DOCUMENTO-SIN-OCR-SEGUROVIDA_page-0001.jpg",
+                    "TargetId": "1c50567b-e5e7-4acf-85c6-adfd009c56ec",
+                    "module": "core",
+                    "description": "[Size: 8 MB - Path: 2021\\12\\13] Alta de fichero: DOCUMENTO-SIN-OCR-SEGUROVIDA_page-0001.jpg",
+                    "parameters": "<data><item><name>Code</name><type>System.String</type><value>DEFAULTCODE12686_637749845532351234</value><oldValue>358ba261-2465-425a-9e72-5193006ee93b</oldValue><fieldId></fieldId></item><item><name>DateCreated</name><type>System.DateTime</type><value>13/12/2021 14:29:13</value><oldValue>13/12/2021 14:28:38</oldValue><fieldId></fieldId></item><item><name>RepositoryName</name><type>System.String</type><value>Document</value><oldValue>Temp</oldValue><fieldId></fieldId></item><item><name>Path</name><type>System.String</type><value>2021\\12\\13\\358ba261-2465-425a-9e72-5193006ee93b_DOCUMENTO-SIN-OCR-SEGUROVIDA_page-0001.jpg</value><oldValue>358ba261-2465-425a-9e72-5193006ee93b_DOCUMENTO-SIN-OCR-SEGUROVIDA_page-0001.jpg</oldValue><fieldId></fieldId></item></data>"
+                },
+                {
+                    "id": "c558e377-4023-4902-a9ca-adfd009c5773",
+                    "userName": "partner",
+                    "action": "Update",
+                    "date": "13/12/2021 2:29:13 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Document,  Adapting.Document",
+                    "targetName": "100-Planilla Externa",
+                    "TargetId": "1c50567b-e5e7-4acf-85c6-adfd009c56ec",
+                    "module": "document",
+                    "parameters": "<data><item><name>IsRecord</name><type>System.Boolean</type><value>True</value><oldValue>False</oldValue><fieldId></fieldId></item></data>"
+                },
+                {
+                    "id": "1986fedb-eebb-4b08-94bd-adfd009c577b",
+                    "userName": "partner",
+                    "action": "Update",
+                    "date": "13/12/2021 2:29:13 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Document,  Adapting.Document",
+                    "targetName": "100-Planilla Externa",
+                    "TargetId": "1c50567b-e5e7-4acf-85c6-adfd009c56ec",
+                    "module": "Document",
+                    "description": "Actualizaci\u00f3n de metadatos.",
+                    "parameters": "<data><item><name>Fecha registro oficial - RawValue</name><type>System.String</type><value>12/13/2021 09:29:13</value><oldValue>12/13/2021 00:00:00</oldValue><fieldId>7</fieldId></item></data>"
+                },
+                {
+                    "id": "a79e35a3-c662-43a8-b996-adfd009c56ff",
+                    "userName": "partner",
+                    "action": "Create",
+                    "date": "13/12/2021 2:29:12 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Document,  Adapting.Document",
+                    "targetName": "100-Planilla Externa",
+                    "TargetId": "1c50567b-e5e7-4acf-85c6-adfd009c56ec",
+                    "module": "document",
+                    "parameters": null
+                },
+                {
+                    "id": "d0ce3531-5f0e-45ef-abb0-adfd0098b405",
+                    "userName": "partner",
+                    "action": "Create",
+                    "date": "13/12/2021 2:15:58 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Core.Contents.File,  Adapting.Core",
+                    "targetName": "DOCUMENTO-SIN-OCR-AUTOMOVIL.pdf",
+                    "TargetId": "8801c3fa-94d4-4806-977d-adfd00989ae5",
+                    "module": "core",
+                    "description": "[Size: 117 kB - Path: 2021\\12\\13]",
+                    "parameters": null
+                },
+                {
+                    "id": "1c86197f-ccf7-47a7-aacc-adfd00989af7",
+                    "userName": "partner",
+                    "action": "Create",
+                    "date": "13/12/2021 2:15:37 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Document,  Adapting.Document",
+                    "targetName": "100-Planilla Externa",
+                    "TargetId": "8801c3fa-94d4-4806-977d-adfd00989ae5",
+                    "module": "document",
+                    "parameters": null
+                },
+                {
+                    "id": "d3c90086-7d37-49b4-bcdd-adfd00989b62",
+                    "userName": "partner",
+                    "action": "Update",
+                    "date": "13/12/2021 2:15:37 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Core.Contents.File,  Adapting.Core",
+                    "targetName": "DOCUMENTO-SIN-OCR-AUTOMOVIL.pdf",
+                    "TargetId": "8801c3fa-94d4-4806-977d-adfd00989ae5",
+                    "module": "core",
+                    "description": "[Size: 66 kB - Path: 2021\\12\\13] Alta de fichero: DOCUMENTO-SIN-OCR-AUTOMOVIL.pdf",
+                    "parameters": "<data><item><name>Code</name><type>System.String</type><value>DEFAULTCODE83993_637749837373105839</value><oldValue>750074e7-06ff-413c-9d05-e3e47194ae1e</oldValue><fieldId></fieldId></item><item><name>DateCreated</name><type>System.DateTime</type><value>13/12/2021 14:15:37</value><oldValue>13/12/2021 14:14:41</oldValue><fieldId></fieldId></item><item><name>RepositoryName</name><type>System.String</type><value>Document</value><oldValue>Temp</oldValue><fieldId></fieldId></item><item><name>Path</name><type>System.String</type><value>2021\\12\\13\\750074e7-06ff-413c-9d05-e3e47194ae1e_DOCUMENTO-SIN-OCR-AUTOMOVIL.pdf</value><oldValue>750074e7-06ff-413c-9d05-e3e47194ae1e_DOCUMENTO-SIN-OCR-AUTOMOVIL.pdf</oldValue><fieldId></fieldId></item></data>"
+                },
+                {
+                    "id": "168fcd92-8115-4049-b425-adfd00989b66",
+                    "userName": "partner",
+                    "action": "Update",
+                    "date": "13/12/2021 2:15:37 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Document,  Adapting.Document",
+                    "targetName": "100-Planilla Externa",
+                    "TargetId": "8801c3fa-94d4-4806-977d-adfd00989ae5",
+                    "module": "document",
+                    "parameters": "<data><item><name>IsRecord</name><type>System.Boolean</type><value>True</value><oldValue>False</oldValue><fieldId></fieldId></item></data>"
+                },
+                {
+                    "id": "3198cf75-94bd-4f9f-ae24-adfd00989b73",
+                    "userName": "partner",
+                    "action": "Update",
+                    "date": "13/12/2021 2:15:37 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Document,  Adapting.Document",
+                    "targetName": "100-Planilla Externa",
+                    "TargetId": "8801c3fa-94d4-4806-977d-adfd00989ae5",
+                    "module": "Document",
+                    "description": "Actualizaci\u00f3n de metadatos.",
+                    "parameters": "<data><item><name>Fecha registro oficial - RawValue</name><type>System.String</type><value>12/13/2021 09:15:37</value><oldValue>12/13/2021 00:00:00</oldValue><fieldId>7</fieldId></item></data>"
+                },
+                {
+                    "id": "1fd7d40e-91cb-4fb2-a4ca-adfd00989a7f",
+                    "userName": "partner",
+                    "action": "Create",
+                    "date": "13/12/2021 2:15:36 p.\u00a0m.",
+                    "IP": "127.0.0.1",
+                    "target": "Adapting.Document.Domain.Folder,  Adapting.Document",
+                    "targetName": "2021-12",
+                    "TargetId": "abefb73c-3e60-4c69-a28e-adfd00989a77",
+                    "module": "document",
+                    "parameters": null
+                }
+            ]
+        }
+    }
+}
